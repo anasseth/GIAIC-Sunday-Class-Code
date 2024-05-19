@@ -66,5 +66,12 @@ console.log("After Push :", legend);
 
 
 
+// function checkSalary(salary) {
+//     return salary > 50000
+// }
+
+// (salary) => salary > 50000;
+
+
 
 
