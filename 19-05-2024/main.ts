@@ -28,7 +28,7 @@ let filterBySalary = collectionOfEmployee
     .filter((employee) => employee.salary >= 50000);
 
 let filterByEmployeeId = collectionOfEmployee
-    .filter((employee: Employee) => employee.employeeId == 7487);
+    .filter((employee: Employee) => employee.employeeId != 7487); // woh employee jis ki id barabar hai 7487
 
 let filterByEmployeeName = collectionOfEmployee
     .filter((employee: Employee) => employee.employeeName.includes("Atif"))
